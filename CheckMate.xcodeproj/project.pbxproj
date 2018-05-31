@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2268F1DD2087B1A80092C881 /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268F1DC2087B1A80092C881 /* HomeTabViewController.swift */; };
+		2268F1E1208831E10092C881 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268F1E0208831E10092C881 /* NavigationViewController.swift */; };
+		229FB6E4207FEF2800DF36AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FB6E3207FEF2800DF36AF /* AppDelegate.swift */; };
+		229FB6E6207FEF2800DF36AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FB6E5207FEF2800DF36AF /* ViewController.swift */; };
+		229FB6E9207FEF2800DF36AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229FB6E7207FEF2800DF36AF /* Main.storyboard */; };
+		229FB6EB207FEF2A00DF36AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229FB6EA207FEF2A00DF36AF /* Assets.xcassets */; };
+		229FB6EE207FEF2A00DF36AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229FB6EC207FEF2A00DF36AF /* LaunchScreen.storyboard */; };
+		229FB6F9207FEF2A00DF36AF /* CheckMateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FB6F8207FEF2A00DF36AF /* CheckMateTests.swift */; };
+		229FB704208000D400DF36AF /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229FB703208000D400DF36AF /* SignUpViewController.swift */; };
+		22AE68962089391A00DFA76C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE68952089391A00DFA76C /* MainTabBarViewController.swift */; };
+		22AE689A2089AC0F00DFA76C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE68992089AC0F00DFA76C /* SettingsViewController.swift */; };
+		22AE689C2089AFE400DFA76C /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AE689B2089AFE400DFA76C /* HistoryTableViewController.swift */; };
+		22B83D0D208EACF200A208AA /* NextOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B83D0C208EACF200A208AA /* NextOneViewController.swift */; };
+		5A6826A7A4BFD0434A219FF5 /* Pods_CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAEDBCF3DF03330D43A232C3 /* Pods_CheckMate.framework */; };
+		7D80AD2A51056B1E9423F774 /* Pods_CheckMateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB5CC1CC28BF2974A9AC9A14 /* Pods_CheckMateTests.framework */; };
+		C1B1B8142092DC43000B2F28 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B8132092DC43000B2F28 /* CustomTableViewCell.swift */; };
+		C1B1B81820943A4A000B2F28 /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B81720943A4A000B2F28 /* TransactionsViewController.swift */; };
+		C1B1B82220944CAF000B2F28 /* PeopleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B81F20944CA9000B2F28 /* PeopleTableViewCell.swift */; };
+		C1B1B82320944CAF000B2F28 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B82020944CAC000B2F28 /* People.swift */; };
+		C1B1B82420944CAF000B2F28 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B82120944CAE000B2F28 /* PersonDetailsViewController.swift */; };
+		C1B1B82620944CB6000B2F28 /* PeopleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1B1B82520944CB6000B2F28 /* PeopleTableViewController.swift */; };
+		C1C77C662085479B00CD7AE8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1C77C652085479B00CD7AE8 /* GoogleService-Info.plist */; };
+		C1C77C6A2086FF1B00CD7AE8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C77C692086FF1B00CD7AE8 /* HomeViewController.swift */; };
+		C1C77C6E2090159F00CD7AE8 /* SplitEvenlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C77C6D2090159F00CD7AE8 /* SplitEvenlyViewController.swift */; };
+		C1C77C702091323900CD7AE8 /* Transactions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C77C6F2091323900CD7AE8 /* Transactions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		229FB6F5207FEF2A00DF36AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 229FB6D8207FEF2800DF36AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 229FB6DF207FEF2800DF36AF;
+			remoteInfo = CheckMate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2268F1DC2087B1A80092C881 /* HomeTabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		2268F1E0208831E10092C881 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		229FB6E0207FEF2800DF36AF /* CheckMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		229FB6E3207FEF2800DF36AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		229FB6E5207FEF2800DF36AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		229FB6E8207FEF2800DF36AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		229FB6EA207FEF2A00DF36AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		229FB6ED207FEF2A00DF36AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		229FB6EF207FEF2A00DF36AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229FB6F4207FEF2A00DF36AF /* CheckMateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheckMateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		229FB6F8207FEF2A00DF36AF /* CheckMateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMateTests.swift; sourceTree = "<group>"; };
+		229FB6FA207FEF2A00DF36AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229FB703208000D400DF36AF /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		22AE68952089391A00DFA76C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		22AE68992089AC0F00DFA76C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		22AE689B2089AFE400DFA76C /* HistoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		22B83D0C208EACF200A208AA /* NextOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextOneViewController.swift; sourceTree = "<group>"; };
+		863F2FDDA5F8A8EFE68A2E5B /* Pods-CheckMateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMateTests/Pods-CheckMateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A77157521FD3C5A2EF917D39 /* Pods-CheckMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMate/Pods-CheckMate.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5CC1CC28BF2974A9AC9A14 /* Pods_CheckMateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckMateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAEDBCF3DF03330D43A232C3 /* Pods_CheckMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CheckMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1B1B8132092DC43000B2F28 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		C1B1B81720943A4A000B2F28 /* TransactionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		C1B1B81F20944CA9000B2F28 /* PeopleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewCell.swift; sourceTree = "<group>"; };
+		C1B1B82020944CAC000B2F28 /* People.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		C1B1B82120944CAE000B2F28 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		C1B1B82520944CB6000B2F28 /* PeopleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeopleTableViewController.swift; sourceTree = "<group>"; };
+		C1C77C652085479B00CD7AE8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C1C77C692086FF1B00CD7AE8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C1C77C6D2090159F00CD7AE8 /* SplitEvenlyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitEvenlyViewController.swift; sourceTree = "<group>"; };
+		C1C77C6F2091323900CD7AE8 /* Transactions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transactions.swift; sourceTree = "<group>"; };
+		FB59548C70D7B59993013352 /* Pods-CheckMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMate.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMate/Pods-CheckMate.release.xcconfig"; sourceTree = "<group>"; };
+		FD1C9022647893AD64B112F2 /* Pods-CheckMateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CheckMateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CheckMateTests/Pods-CheckMateTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		229FB6DD207FEF2800DF36AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A6826A7A4BFD0434A219FF5 /* Pods_CheckMate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229FB6F1207FEF2A00DF36AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D80AD2A51056B1E9423F774 /* Pods_CheckMateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229FB6D7207FEF2800DF36AF = {
+			isa = PBXGroup;
+			children = (
+				229FB6E2207FEF2800DF36AF /* CheckMate */,
+				229FB6F7207FEF2A00DF36AF /* CheckMateTests */,
+				229FB6E1207FEF2800DF36AF /* Products */,
+				DCBDBA4C6F14D6DC00FA6D08 /* Pods */,
+				D42F037BB9BAB382815137A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		229FB6E1207FEF2800DF36AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				229FB6E0207FEF2800DF36AF /* CheckMate.app */,
+				229FB6F4207FEF2A00DF36AF /* CheckMateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		229FB6E2207FEF2800DF36AF /* CheckMate */ = {
+			isa = PBXGroup;
+			children = (
+				C1B1B82120944CAE000B2F28 /* PersonDetailsViewController.swift */,
+				C1B1B82020944CAC000B2F28 /* People.swift */,
+				C1B1B81F20944CA9000B2F28 /* PeopleTableViewCell.swift */,
+				229FB6E3207FEF2800DF36AF /* AppDelegate.swift */,
+				229FB6E5207FEF2800DF36AF /* ViewController.swift */,
+				229FB6E7207FEF2800DF36AF /* Main.storyboard */,
+				22B83D0C208EACF200A208AA /* NextOneViewController.swift */,
+				22AE689B2089AFE400DFA76C /* HistoryTableViewController.swift */,
+				C1B1B82520944CB6000B2F28 /* PeopleTableViewController.swift */,
+				22AE68992089AC0F00DFA76C /* SettingsViewController.swift */,
+				22AE68952089391A00DFA76C /* MainTabBarViewController.swift */,
+				2268F1E0208831E10092C881 /* NavigationViewController.swift */,
+				2268F1DC2087B1A80092C881 /* HomeTabViewController.swift */,
+				229FB703208000D400DF36AF /* SignUpViewController.swift */,
+				C1C77C6F2091323900CD7AE8 /* Transactions.swift */,
+				229FB6EA207FEF2A00DF36AF /* Assets.xcassets */,
+				229FB6EC207FEF2A00DF36AF /* LaunchScreen.storyboard */,
+				229FB6EF207FEF2A00DF36AF /* Info.plist */,
+				C1C77C652085479B00CD7AE8 /* GoogleService-Info.plist */,
+				C1C77C692086FF1B00CD7AE8 /* HomeViewController.swift */,
+				C1C77C6D2090159F00CD7AE8 /* SplitEvenlyViewController.swift */,
+				C1B1B8132092DC43000B2F28 /* CustomTableViewCell.swift */,
+				C1B1B81720943A4A000B2F28 /* TransactionsViewController.swift */,
+			);
+			path = CheckMate;
+			sourceTree = "<group>";
+		};
+		229FB6F7207FEF2A00DF36AF /* CheckMateTests */ = {
+			isa = PBXGroup;
+			children = (
+				229FB6F8207FEF2A00DF36AF /* CheckMateTests.swift */,
+				229FB6FA207FEF2A00DF36AF /* Info.plist */,
+			);
+			path = CheckMateTests;
+			sourceTree = "<group>";
+		};
+		D42F037BB9BAB382815137A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAEDBCF3DF03330D43A232C3 /* Pods_CheckMate.framework */,
+				AB5CC1CC28BF2974A9AC9A14 /* Pods_CheckMateTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DCBDBA4C6F14D6DC00FA6D08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A77157521FD3C5A2EF917D39 /* Pods-CheckMate.debug.xcconfig */,
+				FB59548C70D7B59993013352 /* Pods-CheckMate.release.xcconfig */,
+				863F2FDDA5F8A8EFE68A2E5B /* Pods-CheckMateTests.debug.xcconfig */,
+				FD1C9022647893AD64B112F2 /* Pods-CheckMateTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		229FB6DF207FEF2800DF36AF /* CheckMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229FB6FD207FEF2A00DF36AF /* Build configuration list for PBXNativeTarget "CheckMate" */;
+			buildPhases = (
+				10882003EB2A817087005B4D /* [CP] Check Pods Manifest.lock */,
+				229FB6DC207FEF2800DF36AF /* Sources */,
+				229FB6DD207FEF2800DF36AF /* Frameworks */,
+				229FB6DE207FEF2800DF36AF /* Resources */,
+				A01E0891AB8329B7F17754FC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckMate;
+			productName = CheckMate;
+			productReference = 229FB6E0207FEF2800DF36AF /* CheckMate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		229FB6F3207FEF2A00DF36AF /* CheckMateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 229FB700207FEF2A00DF36AF /* Build configuration list for PBXNativeTarget "CheckMateTests" */;
+			buildPhases = (
+				A26FB3F39803B42AD3C0E4AC /* [CP] Check Pods Manifest.lock */,
+				229FB6F0207FEF2A00DF36AF /* Sources */,
+				229FB6F1207FEF2A00DF36AF /* Frameworks */,
+				229FB6F2207FEF2A00DF36AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				229FB6F6207FEF2A00DF36AF /* PBXTargetDependency */,
+			);
+			name = CheckMateTests;
+			productName = CheckMateTests;
+			productReference = 229FB6F4207FEF2A00DF36AF /* CheckMateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		229FB6D8207FEF2800DF36AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = KB;
+				TargetAttributes = {
+					229FB6DF207FEF2800DF36AF = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					229FB6F3207FEF2A00DF36AF = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 229FB6DF207FEF2800DF36AF;
+					};
+				};
+			};
+			buildConfigurationList = 229FB6DB207FEF2800DF36AF /* Build configuration list for PBXProject "CheckMate" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 229FB6D7207FEF2800DF36AF;
+			productRefGroup = 229FB6E1207FEF2800DF36AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				229FB6DF207FEF2800DF36AF /* CheckMate */,
+				229FB6F3207FEF2A00DF36AF /* CheckMateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		229FB6DE207FEF2800DF36AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229FB6EE207FEF2A00DF36AF /* LaunchScreen.storyboard in Resources */,
+				C1C77C662085479B00CD7AE8 /* GoogleService-Info.plist in Resources */,
+				229FB6EB207FEF2A00DF36AF /* Assets.xcassets in Resources */,
+				229FB6E9207FEF2800DF36AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229FB6F2207FEF2A00DF36AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10882003EB2A817087005B4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01E0891AB8329B7F17754FC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CheckMate/Pods-CheckMate-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CheckMate/Pods-CheckMate-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A26FB3F39803B42AD3C0E4AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CheckMateTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		229FB6DC207FEF2800DF36AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22AE68962089391A00DFA76C /* MainTabBarViewController.swift in Sources */,
+				C1B1B82420944CAF000B2F28 /* PersonDetailsViewController.swift in Sources */,
+				C1C77C702091323900CD7AE8 /* Transactions.swift in Sources */,
+				229FB704208000D400DF36AF /* SignUpViewController.swift in Sources */,
+				22B83D0D208EACF200A208AA /* NextOneViewController.swift in Sources */,
+				22AE689A2089AC0F00DFA76C /* SettingsViewController.swift in Sources */,
+				C1B1B82220944CAF000B2F28 /* PeopleTableViewCell.swift in Sources */,
+				C1C77C6E2090159F00CD7AE8 /* SplitEvenlyViewController.swift in Sources */,
+				229FB6E6207FEF2800DF36AF /* ViewController.swift in Sources */,
+				22AE689C2089AFE400DFA76C /* HistoryTableViewController.swift in Sources */,
+				229FB6E4207FEF2800DF36AF /* AppDelegate.swift in Sources */,
+				C1B1B8142092DC43000B2F28 /* CustomTableViewCell.swift in Sources */,
+				C1C77C6A2086FF1B00CD7AE8 /* HomeViewController.swift in Sources */,
+				C1B1B82320944CAF000B2F28 /* People.swift in Sources */,
+				2268F1E1208831E10092C881 /* NavigationViewController.swift in Sources */,
+				2268F1DD2087B1A80092C881 /* HomeTabViewController.swift in Sources */,
+				C1B1B82620944CB6000B2F28 /* PeopleTableViewController.swift in Sources */,
+				C1B1B81820943A4A000B2F28 /* TransactionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		229FB6F0207FEF2A00DF36AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229FB6F9207FEF2A00DF36AF /* CheckMateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		229FB6F6207FEF2A00DF36AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 229FB6DF207FEF2800DF36AF /* CheckMate */;
+			targetProxy = 229FB6F5207FEF2A00DF36AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		229FB6E7207FEF2800DF36AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229FB6E8207FEF2800DF36AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		229FB6EC207FEF2A00DF36AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				229FB6ED207FEF2A00DF36AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		229FB6FB207FEF2A00DF36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		229FB6FC207FEF2A00DF36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		229FB6FE207FEF2A00DF36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77157521FD3C5A2EF917D39 /* Pods-CheckMate.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCD97VF5S5;
+				INFOPLIST_FILE = CheckMate/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = KB.CheckMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		229FB6FF207FEF2A00DF36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB59548C70D7B59993013352 /* Pods-CheckMate.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TCD97VF5S5;
+				INFOPLIST_FILE = CheckMate/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = KB.CheckMate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		229FB701207FEF2A00DF36AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 863F2FDDA5F8A8EFE68A2E5B /* Pods-CheckMateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KB.CheckMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMate.app/CheckMate";
+			};
+			name = Debug;
+		};
+		229FB702207FEF2A00DF36AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD1C9022647893AD64B112F2 /* Pods-CheckMateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CheckMateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = KB.CheckMateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheckMate.app/CheckMate";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		229FB6DB207FEF2800DF36AF /* Build configuration list for PBXProject "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229FB6FB207FEF2A00DF36AF /* Debug */,
+				229FB6FC207FEF2A00DF36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229FB6FD207FEF2A00DF36AF /* Build configuration list for PBXNativeTarget "CheckMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229FB6FE207FEF2A00DF36AF /* Debug */,
+				229FB6FF207FEF2A00DF36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		229FB700207FEF2A00DF36AF /* Build configuration list for PBXNativeTarget "CheckMateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				229FB701207FEF2A00DF36AF /* Debug */,
+				229FB702207FEF2A00DF36AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 229FB6D8207FEF2800DF36AF /* Project object */;
+}

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CheckMate/HistoryTableViewController.swift"
+            timestampString = "547681024.556258"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "HistoryTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckMate.HistoryTableViewController.name.getter : __ObjC.NSArray"
+                  moduleName = "CheckMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bopeng/Desktop/CheckMate/CheckMate/HistoryTableViewController.swift"
+                  timestampString = "547784481.178425"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckMate.HistoryTableViewController.name.setter : __ObjC.NSArray"
+                  moduleName = "CheckMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bopeng/Desktop/CheckMate/CheckMate/HistoryTableViewController.swift"
+                  timestampString = "547784481.185429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckMate.HistoryTableViewController.init(style: __C.UITableViewStyle) -&gt; CheckMate.HistoryTableViewController"
+                  moduleName = "CheckMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bopeng/Desktop/CheckMate/CheckMate/HistoryTableViewController.swift"
+                  timestampString = "547784481.18787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1014">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckMate.HistoryTableViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; CheckMate.HistoryTableViewController"
+                  moduleName = "CheckMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bopeng/Desktop/CheckMate/CheckMate/HistoryTableViewController.swift"
+                  timestampString = "547784481.190222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "1035">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CheckMate.HistoryTableViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;CheckMate.HistoryTableViewController&gt;"
+                  moduleName = "CheckMate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bopeng/Desktop/CheckMate/CheckMate/HistoryTableViewController.swift"
+                  timestampString = "547784481.192578"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "961">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
